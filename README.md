@@ -6,7 +6,7 @@
 - composer update
 - cp .env.example .env
 - php artisan key:generate
-- touch database/database-sqlite
+- touch database/database.sqlite
 - php artisan migrate
 - php artisan tinker
 - use App\Models\User
